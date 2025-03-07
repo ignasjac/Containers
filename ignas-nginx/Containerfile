@@ -1,0 +1,6 @@
+
+FROM nginx:latest
+
+RUN echo '<!DOCTYPE html><html><head><title>NGINX Web</title></head><body><h1>Ignas Jacunskas NGINX WEB</h1></body></html>' > /usr/share/nginx/html/index.html
+
+EXPOSE 80
